@@ -1,0 +1,15 @@
+{
+  "name": "ec2AwsTeste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/saulosjoseph/ec2AwsTeste.git",
+  "author": "Saulo de sousa Joseph <saulos.joseph@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^12.10.0"
+  }
+}
