@@ -8,6 +8,8 @@ router.get('/teste', function (req, res, next) {
 });
 
 router.get('/ec2', function (req, res, next) {
-    res.send('EC2 Ok');
+    res.send({
+        title: "EC2 Ok"
+    });
 });
 module.exports = router;
